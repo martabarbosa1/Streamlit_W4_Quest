@@ -2,7 +2,7 @@ import pandas as pd
 import streamlit as st
 import seaborn as sns
 
-st.title("W4_Quest_Streamit")
+st.title("W4_Quest_Streamlit")
 
 page_names=['US', 'Europe', 'Japan']
 page=st.radio('Please choose the region:', page_names)
